@@ -5,4 +5,10 @@ export UCHIWA_REFRESH=${UCHIWA_REFRESH:-10000}
 export UCHIWA_USER=${UCHIWA_USER:-}
 export UCHIWA_PASS=${UCHIWA_PASS:-}
 
-go run /src/uchiwa.go -c /config/config.js
+if [ -e /config/config.json ]
+then
+  go run /src/uchiwa.go -c /config/config.json
+else
+  echo "please add a config.json file to docker/config.json"
+fi
+
