@@ -1,4 +1,5 @@
 # Uchiwa
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/damacus/uchiwa?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 *Uchiwa* is a simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
 
